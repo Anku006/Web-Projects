@@ -1,98 +1,31 @@
 body {
-    text-align: center;
-    font-family: "Happy Monkey", system-ui;
-    background-color: rgb(248, 208, 236);
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
 }
 
-.back-img {
-    background-image: url("images/panipatbackground.webp");
-    background-size: cover;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.back-up {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#heading {
-    background-color: rgb(5, 63, 63);
-    margin-bottom: 4px;
-}
-
-#para {
-    background-color: rgb(6, 73, 136);
-    margin-top: 0;
-    font-style: oblique;
-}
-
-.same {
-    color: white;
-    padding: 5px 10px;
-    border-radius: 10px;
-}
-
-.visit-section {
-    display: flex;
-}
-
-.visit {
-    margin: 20px;
-}
-
-.visit-img {
-    border-radius: 50%;
-    border: 1px solid black;
-}
-
-.visit-img:hover {
-    transform: scale(1.1);
-    transition-duration: 1s;
-}
-
-
-.guide-profile {
-    border: 2px solid rgb(58, 139, 245);
-    display: flex;
-    width: 500px;
-    align-items: center;
-    margin: 0 auto;
-    justify-content: space-around;
-    border-radius: 10px;
-    background-color: rgba(222, 250, 170, 0.699);
-}
-
-.guide-img {
-    width: 130px;
-}
-
-#guide-id {
-    width: 120px;
-    height: 180px;
-}
-
-#guide-id:hover {
-    transform: scale(1.1);
-    transition-duration: 0.5s;
-    
-}
-
-.about-guide {
+img {
     width: 200px;
+    display: block;
 }
 
-#your-guide {
-    color: rgb(21, 193, 245);
-    text-shadow: 0 0 1px black;
+p {
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
+button {
+    background: white;
+    color: black;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
 
-#guide-name {
-    color: #ae45ae;
-    text-shadow: 0 0 1px black;
+#error {
+    color: red;
+    font-weight: 200;
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="score.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>HOME</h2>
+            <h1 class="starting-score" id="home-score">0</h1>
+            <div class="btn-container">
+                <button class="score-btn" onclick="incrementByOneHome()" id="inrease1">+1</button>
+                <button class="score-btn" onclick="incrementByTwoHome()" id="increase2">+2</button>
+                <button class="score-btn" onclick="incrementByThreeHome()" id="increase3">+3</button>
+            </div>
+        </div>
+        <div class="reset">
+            <button id="reset-btn" onclick="resetScore()">Reset</button>
+        </div>
+        <div class="box">
+            <h2>GUEST</h2>
+            <h1 class="starting-score" id="guest-score">0</h1>
+            <div class="btn-container">
+                <button class="score-btn" onclick="incrementByOneGuest()">+1</button>
+                <button class="score-btn" onclick="incrementByTwoGuest()">+2</button>
+                <button class="score-btn" onclick="incrementByThreeGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="score.js"></script>
+</body>
+</html>
